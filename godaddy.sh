@@ -40,7 +40,12 @@ TTL=600
 CachedIP=/tmp/current_ip
 
 # External URL to check for current Public IP, must contain only a single plain text IP.
-# Default http://api.ipify.org.
+# Default http://api.ipify.org  
+#curl ifconfig.me
+#curl ipv4.ip.sb
+#curl http://test.ipw.cn
+#https://icanhazip.com/
+#http://ident.me/
 CheckURL=http://api.ipify.org
 
 # Optional scripts/programs/commands to execute on successful update. Leave blank to disable.
